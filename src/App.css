@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Paras
+{
+  background-color:rgb(206, 236, 164);
+}
+
+.btnContainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:2rem;
+  
+}

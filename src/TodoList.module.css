@@ -1,0 +1,23 @@
+.Container
+{
+gap:1rem;
+
+    /* margin-top: 2rem; */
+
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 204, 204);
+    margin-bottom: 1rem;
+
+    gap:2rem;
+    padding: 0.5rem;
+    margin: auto;
+
+}
+#inneer
+{
+    margin-top: 1rem;
+}

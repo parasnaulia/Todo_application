@@ -1,0 +1,30 @@
+.Container
+{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-around;
+    background-color:rgb(175, 210, 126); ;
+}
+.inner
+{
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.Icon
+{
+    height: 50px;
+  
+}
+.aa
+{
+    text-decoration: none;
+    color: white;
+}
+.aa:hover, 
+.aa:focus,
+.aa:active {
+  color:black;
+}
