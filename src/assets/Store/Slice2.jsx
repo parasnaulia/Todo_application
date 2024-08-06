@@ -6,10 +6,14 @@ const todoData1=createSlice({
     Add:(state,action)=>{
         state.push(action.payload)
 
+    },
+    Del:(state,action)=>{
+      return state.filter((item, index) => index !== action.payload);
+      
     }
   }
   
  
 })
 export default todoData1.reducer
-export const {Add}=todoData1.actions
+export const {Add,Del}=todoData1.actions;

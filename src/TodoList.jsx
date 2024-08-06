@@ -15,13 +15,13 @@ const dataArr=  useSelector((state)=>{
     <div className={styles.Container}>
         <div className={styles.inner} ><h2>My Todo</h2></div>
         {
-            dataArr.map((item)=>{
-              return <RenderTodo todo={item}/>
+            dataArr.map((item,index)=>{
+              return <RenderTodo todo={item} index={index} key={index}/>
             })
             
         }
        
-        <div className={styles.inner} ><h2>Assigned</h2></div>
+        <div className={styles.inner} id="inneer" ><h2>Assigned</h2></div>
       
     </div>
   )

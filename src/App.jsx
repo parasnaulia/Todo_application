@@ -14,11 +14,16 @@ import { Outlet } from 'react-router-dom'
 
 
 function App() {
+const arr=  useSelector((state)=>{
+    return state.todosArr;
+  })
+  console.log(arr);
 
   return (
    
     <div className='Container'>
       <Nav/>
+
      
         
      <Outlet/>
