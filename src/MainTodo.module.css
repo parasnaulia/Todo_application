@@ -5,6 +5,17 @@
     align-items: center;
     padding: 1.2rem;
     border-bottom: 1px solid rgb(156, 152, 152);
+    width: 100vw;
+
+}
+@media (max-width: 840px){
+    .container{
+        width: 200px;
+        display: flex;
+        justify-content: flex-start;
+        /* background-color: aquamarine; */
+
+    }
 
 }
 .inner

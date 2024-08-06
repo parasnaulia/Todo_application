@@ -3,7 +3,8 @@
     display: flex;
     padding: 0.5rem;
     justify-content: space-around;
-    background-color:rgb(175, 210, 126); ;
+    background-color:rgb(175, 210, 126); 
+    width: 100%;
 }
 .inner
 {

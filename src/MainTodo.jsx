@@ -22,7 +22,7 @@ const MainTodo = () => {
         <div className={styles.inner}>
             {
                 arrChoices.map((item,index)=>{
-                    return <Choices data={item} index={index}/>
+                    return <Choices data={item} index={index} key={index}/>
                 })
             }
             

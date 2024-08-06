@@ -6,7 +6,8 @@ import MainTodo from './MainTodo'
 import Friend from './Friend'
 import Todo from './Todo'
 import Nav from './Nav'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import styles from "./MainData.module.css"
 
 const MainData = () => {
     const data= useSelector((state)=>{
@@ -21,9 +22,11 @@ const MainData = () => {
 
    
    <Todo/>
+   <div className={styles.pp}>
       {
         data===0? <MainTodo/>: <Friend/>
       }
+      </div>
       <div className='btnContainer'>
      {data===0?<IoMdAddCircle onClick={()=>{
         navigate("popup")
