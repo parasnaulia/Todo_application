@@ -49,7 +49,7 @@ const formattedDate = `${day}-${month}-${year}`;
       // alert("Hello")
       dispatch(Del(index))
       
-    }} style={{backgroundColor:"black",color:"white", padding:"0.4rem",cursor:"pointer"}}>Delelte Todo</button></div>
+    }} style={{backgroundColor:"black",color:"white", padding:"0.4rem",cursor:"pointer"}}>Delete</button></div>
       
 
     </div>
