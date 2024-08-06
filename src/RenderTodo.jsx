@@ -43,8 +43,8 @@ const formattedDate = `${day}-${month}-${year}`;
 
     </div>
     <div>
-    <p style={{ margin: '0', fontStyle: 'italic', color: 'gray' }}>Time: {todo.time}</p>
-    <p>{formattedDate}</p>
+    <p style={{ margin: '0', fontStyle: 'italic', color: 'gray' }}>{formattedDate}, {todo.time}</p>
+    <p>By Paras Naulia</p>
     <div style={{marginTop:"1rem"}}><button onClick={()=>{
       // alert("Hello")
       dispatch(Del(index))
